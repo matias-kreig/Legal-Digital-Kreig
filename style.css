@@ -1,0 +1,135 @@
+body{
+/*     position: relative; */
+}
+/* Header */
+
+.logoNav{
+    width: 4em;
+}
+.navbar{
+    background-color: rgb(255, 68, 0);
+
+}
+.nav-link{
+    
+    background-color: rgba(255, 166, 0, 0.459);
+    
+}
+.navbar b{
+    color: white;
+}
+
+/* Main */
+
+
+.imagenesMain{
+    background-color: pink;
+
+}
+
+
+.mainSlogan{
+border: solid 1px black;
+background-color: orangered;
+color: white;
+text-align: center;
+margin: 30px;
+padding: 10px;
+}
+
+.tituloIndexNovedades{
+    border: solid 1px black;
+background-color: orangered;
+color: white;
+text-align: center;
+margin: 30px;
+padding: 10px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.noticiasMain{
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+}
+/* footer */
+
+
+
+.footer{
+    background-color:orangered;
+/*     position: absolute;
+    bottom: 0;
+    border: solid 1px;
+    width: 100%; */
+}
+
+.footer__ul{
+    display: inline-block;
+    display: flex;
+    justify-content:space-evenly
+}
+
+.footer__ul__li{
+    display: inline-block;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer a{
+    color: rgb(6, 6, 88);
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.mainAcercaNos{
+    border: solid 1px black;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.divNosotros{
+    background-color: white;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.mainServiciosTitulo{
+    
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+.divServiciosTitulos{
+  
+    color: white;
+    background-color: orangered;
+    
+
+}
+.divServiciosP{
+  
+    background-color: white;
+    
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+.mainNovedadesT{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;   
+}
