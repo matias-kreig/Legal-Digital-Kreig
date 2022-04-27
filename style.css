@@ -1,74 +1,99 @@
+/* Google Fonts */
 
-/* Header */
+/* font-family: 'Red Hat Mono', monospace;
+font-family: 'Work Sans', sans-serif; 
+font-family: 'Nunito', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/*----------------------- Header--------------------------------------------------------------------- */
+
 
 .logoNav{
-    width: 4em;
+    width: 5em;
 }
+
 .navbar{
     background-color: rgb(255, 68, 0);
+}
 
-}
 .nav-link{
-    
-    background-color: rgba(255, 166, 0, 0.459);
-    
+    background-color: rgba(255, 166, 0, 0.233);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
 }
+
 .navbar b{
     color: white;
-    font-size: 32px;
+    font-size: 38px;
+}
+.titutoNavBar{
+    font-family: 'Red Hat Mono', monospace;
 }
 
-/* Main */
+/*----------------------------- Main------------------------------------------------------------- */
+
+
 .main{
     background: rgb(255,136,0);
     background: radial-gradient(circle, rgba(255,136,0,0.908000700280112) 0%, rgba(255,201,145,1) 100%);
 }
-
-
-
-
 .mainSlogan{
-border: solid 1px black;
-background-color: orangered;
-color: white;
-text-align: center;
-margin: 30px;
-padding: 10px;
+    border: solid 1px black;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
 }
 
 .tituloIndexNovedades{
     border: solid 1px black;
-background-color: orangered;
-color: white;
-text-align: center;
-margin: 30px;
-padding: 10px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    
 }
+
+.botonNot{
+    background-color: rgb(182, 62, 19);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
 .card-title{
     text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight:900;
 }
+
 .card-text{
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
+
 .btn{
     display: flex;
     justify-content: center;
 }
+
 .noticiasMain{
     display: flex;
     justify-content: center;
     margin: auto; 
 }
-/* footer */
+
+
+/*----------------------- Footer------------------------------------------------------ */
 
 
 
 .footer{
     background-color:orangered;
-/*     position: absolute;
-    bottom: 0;
-    border: solid 1px;
-    width: 100%; */
 }
 
 .footer__ul{
@@ -89,7 +114,10 @@ padding: 10px;
     color: rgb(6, 6, 88);
 }
 
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------NOSOTROS----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
 .mainAcercaNos{
     border: solid 1px black;
     background-color: orangered;
@@ -100,33 +128,45 @@ padding: 10px;
 }
 
 .divNosotros{
-    background-color: white;
+    background-color:#FFE8CD;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
-/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ----------------------------------SERVICIOS-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 .mainServiciosTitulo{
-    
     background-color: orangered;
     color: white;
     text-align: center;
     margin: 30px;
     padding: 10px;
 }
+
 .divServiciosTitulos{
-  
     color: white;
     background-color: orangered;
-    
+}
+
+.divServiciosP{
+  background-color: white;
+
 
 }
-.divServiciosP{
-  
-    background-color: white;
-    
-}
+
 .card-header{
     background-color:darkgray;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+
 }
+.serviciosCardP{
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
 /* -------------------------------------------------------------------------------------------------------------------------- */
 .mainNovedadesT{
     background-color: orangered;
