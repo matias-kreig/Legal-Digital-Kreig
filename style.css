@@ -40,7 +40,7 @@ font-family: 'Noto Sans', sans-serif;
 }
 .mainSlogan{
     border: solid 1px black;
-    background-color: orangered;
+    background-color: rgb(182, 62, 19);
     color: rgb(255, 255, 255);
     text-align: center;
     margin: 30px;
@@ -51,11 +51,15 @@ font-family: 'Noto Sans', sans-serif;
 
 .tituloIndexNovedades{
     border: solid 1px black;
-    background-color: orangered;
+    background-color: rgb(182, 62, 19);
     color: white;
     text-align: center;
     margin: 30px;
     padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
     
 }
 
@@ -120,11 +124,15 @@ font-family: 'Noto Sans', sans-serif;
 
 .mainAcercaNos{
     border: solid 1px black;
-    background-color: orangered;
+    background-color: rgb(182, 62, 19);
     color: white;
     text-align: center;
     margin: 30px;
     padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
 
 .divNosotros{
@@ -138,11 +146,16 @@ font-family: 'Noto Sans', sans-serif;
 
 
 .mainServiciosTitulo{
-    background-color: orangered;
-    color: white;
+   
+    background-color: rgb(182, 62, 19);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin: 30px;
     padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
 
 .divServiciosTitulos{
@@ -157,8 +170,9 @@ font-family: 'Noto Sans', sans-serif;
 }
 
 .card-header{
-    background-color:darkgray;
+    background-color: rgb(131, 72, 50);
     font-weight: 900;
+    color: white;
     font-family: 'Nunito', sans-serif;
 
 }
@@ -169,28 +183,40 @@ font-family: 'Noto Sans', sans-serif;
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 .mainNovedadesT{
-    background-color: orangered;
+    background-color: rgb(182, 62, 19);
     color: white;
     text-align: center;
     margin: 30px;
-    padding: 10px;   
+    padding: 10px;  
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .mainContactoT{
     border: solid 1px black;
-    background-color: orangered;
+    background-color: rgb(182, 62, 19);
     color: white;
     text-align: center;
     margin: 30px;
     padding: 10px; 
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------- */
 .mainNoticiasT{
-    background-color: orangered;
+    background-color: rgb(182, 62, 19);
     color: white;
     text-align: center;
     margin: 30px;
-    padding: 10px;  
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px; 
 }
