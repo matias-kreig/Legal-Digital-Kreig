@@ -4,6 +4,7 @@
 font-family: 'Work Sans', sans-serif; 
 font-family: 'Nunito', sans-serif;
 font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
 */
 
 /*----------------------- Header--------------------------------------------------------------------- */
@@ -46,7 +47,7 @@ font-family: 'Noto Sans', sans-serif;
     margin: 30px;
     padding: 10px;
     font-family: 'Nunito', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .tituloIndexNovedades{
@@ -57,12 +58,15 @@ font-family: 'Noto Sans', sans-serif;
     margin: 30px;
     padding: 10px;
     font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 5px;
+    letter-spacing: 1px;
+    word-spacing: 3px; 
+    
+   
     
 }
-
+.divNoticiasIndex{
+    background-color:#FFE8CD;
+}
 .botonNot{
     background-color: rgb(182, 62, 19);
     font-family: 'Nunito', sans-serif;
@@ -129,10 +133,10 @@ font-family: 'Noto Sans', sans-serif;
     text-align: center;
     margin: 30px;
     padding: 10px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Noto Sans', sans-serif;
-    letter-spacing: 2px;
-    word-spacing: 5px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 .divNosotros{
@@ -153,21 +157,16 @@ font-family: 'Noto Sans', sans-serif;
     margin: 30px;
     padding: 10px;
     font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 5px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
-.divServiciosTitulos{
-    color: white;
-    background-color: orangered;
+.divServicios{
+    background-color:#FFE8CD;
 }
 
-.divServiciosP{
-  background-color: white;
 
-
-}
 
 .card-header{
     background-color: rgb(131, 72, 50);
@@ -189,11 +188,13 @@ font-family: 'Noto Sans', sans-serif;
     margin: 30px;
     padding: 10px;  
     font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 5px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
-
+.divNosotrosBg{
+    background-color:#FFE8CD;
+}
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .mainContactoT{
     border: solid 1px black;
@@ -203,11 +204,15 @@ font-family: 'Noto Sans', sans-serif;
     margin: 30px;
     padding: 10px; 
     font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 5px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
-
+.btnEnviar{
+    background-color: rgb(182, 62, 19);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
 /*------------------------------------------------------------------------------------------------------------------------------- */
 .mainNoticiasT{
     background-color: rgb(182, 62, 19);
@@ -216,7 +221,7 @@ font-family: 'Noto Sans', sans-serif;
     margin: 30px;
     padding: 10px;
     font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 5px; 
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    word-spacing: 3px; 
 }
