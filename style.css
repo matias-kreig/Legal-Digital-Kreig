@@ -24,6 +24,7 @@ font-family: 'Nunito', sans-serif;
     font-weight: 900;
 }
 
+
 .navbar b{
     color: white;
     font-size: 24px;
@@ -31,8 +32,11 @@ font-family: 'Nunito', sans-serif;
 .titutoNavBar{
     font-family: 'Red Hat Mono', monospace;
 }
+.linkHeader:hover, .linkHeader:active{
+font-size: 110%;
+}
 
-/*----------------------------- Main------------------------------------------------------------- */
+/*----------------------------- MAIN MAIN -MAIN------------------------------------------------------------------------- */
 
 
 .main{
@@ -65,12 +69,16 @@ font-family: 'Nunito', sans-serif;
     
 }
 .divNoticiasIndex{
-    background-color:#FFE8CD;
+    background-color:#fde1c0;
+    border: solid 1px grey;
 }
 .botonNot{
     background-color: rgb(182, 62, 19);
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
+}
+.botonNot:hover, .botonNot:active{
+   font-size: 110%;
 }
 
 .card-title{
@@ -116,6 +124,9 @@ font-family: 'Nunito', sans-serif;
     margin-bottom: 5px;
     padding-top: 5px;
     margin-bottom: 5px;
+}
+.footer__ul__li:hover, .footer__ul__li:active{
+    font-size: 110%;
 }
 
 .footer a{
@@ -180,7 +191,7 @@ font-family: 'Nunito', sans-serif;
     font-family: 'Nunito', sans-serif;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------NOVEDADES-------------------------------------------------------------------------- */
 .mainNovedadesT{
     background-color: rgb(182, 62, 19);
     color: white;
@@ -194,8 +205,10 @@ font-family: 'Nunito', sans-serif;
 }
 .divNosotrosBg{
     background-color:#FFE8CD;
+    border: solid 1px grey;
+    
 }
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------CONTACTO----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .mainContactoT{
     border: solid 1px black;
     background-color: rgb(182, 62, 19);
@@ -213,7 +226,10 @@ font-family: 'Nunito', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
 }
-/*------------------------------------------------------------------------------------------------------------------------------- */
+.btnEnviar:hover, .btnEnviar:active{
+    font-size: 110%;
+}
+/*-----------------------------------------NOTICIAS-------------------------------------------------------------------------------------- */
 .mainNoticiasT{
     background-color: rgb(182, 62, 19);
     color: white;
