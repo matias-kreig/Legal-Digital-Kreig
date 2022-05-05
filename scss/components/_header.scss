@@ -1,0 +1,26 @@
+.header{
+    
+    .navegador{
+        background-color: $background-color_header-footer;
+        
+        .navegador__div__a{
+            
+            .navegador__div__a__logoNav{
+                width: 4em;
+            }
+            .navegador__div__a_titutoNavBar{
+                font-family: 'Red Hat Mono', monospace;
+                color: white;
+                font-size: 24px;
+            }
+        }
+    }
+    .nav-link{
+        background-color: rgba(255, 166, 0, 0.233);
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+    }
+    .linkHeader:hover, .linkHeader:active{
+        font-size: 110%;
+        }
+}

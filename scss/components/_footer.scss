@@ -1,0 +1,25 @@
+.footer{
+    background-color:orangered;
+    
+    .footer__ul{
+       display: inline-block;
+        display: flex;
+        justify-content:space-evenly;
+        list-style: none;
+        
+        .footer__ul__li{
+            display: inline-block;
+            margin-top: 5px; 
+            margin-bottom: 5px;
+            padding-top: 5px;
+            margin-bottom: 5px;
+
+            .footer__ul__li__a{
+                color: rgb(6, 6, 88);
+            }
+        }
+        .footer__ul__li:hover, .footer__ul__li:active{
+            font-size: 110%;
+        }
+    }
+}

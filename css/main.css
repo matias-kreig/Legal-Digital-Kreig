@@ -1,0 +1,57 @@
+.header .navegador {
+  background-color: #ff4400; }
+  .header .navegador .navegador__div__a .navegador__div__a__logoNav {
+    width: 4em; }
+  .header .navegador .navegador__div__a .navegador__div__a_titutoNavBar {
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+    font-size: 24px; }
+
+.header .nav-link {
+  background-color: rgba(255, 166, 0, 0.233);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900; }
+
+.header .linkHeader:hover, .header .linkHeader:active {
+  font-size: 110%; }
+
+.footer {
+  background-color: orangered; }
+  .footer .footer__ul {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; }
+    .footer .footer__ul .footer__ul__li {
+      display: inline-block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding-top: 5px;
+      margin-bottom: 5px; }
+      .footer .footer__ul .footer__ul__li .footer__ul__li__a {
+        color: #060658; }
+    .footer .footer__ul .footer__ul__li:hover, .footer .footer__ul .footer__ul__li:active {
+      font-size: 110%; }
+
+.main {
+  background: #ff8800;
+  background: radial-gradient(circle, rgba(255, 136, 0, 0.908001) 0%, #ffc991 100%); }
+
+.mainContactoT {
+  border: solid 1px black;
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px; }
+
+.btnEnviar {
+  background-color: #b63e13;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900; }
+
+.btnEnviar:hover, .btnEnviar:active {
+  font-size: 110%; }
