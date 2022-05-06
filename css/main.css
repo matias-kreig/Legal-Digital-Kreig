@@ -15,6 +15,10 @@
 .header .linkHeader:hover, .header .linkHeader:active {
   font-size: 110%; }
 
+.main {
+  background: #ff8800;
+  background: radial-gradient(circle, rgba(255, 136, 0, 0.908001) 0%, #ffc991 100%); }
+
 .footer {
   background-color: orangered; }
   .footer .footer__ul {
@@ -33,9 +37,103 @@
     .footer .footer__ul .footer__ul__li:hover, .footer .footer__ul .footer__ul__li:active {
       font-size: 110%; }
 
-.main {
-  background: #ff8800;
-  background: radial-gradient(circle, rgba(255, 136, 0, 0.908001) 0%, #ffc991 100%); }
+.main .mainSlogan {
+  border: solid 1px black;
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700; }
+
+.main .tituloIndexNovedades {
+  border: solid 1px black;
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px; }
+
+.main .noticiasMain {
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+  .main .noticiasMain .divNoticiasIndex {
+    background-color: #fde1c0;
+    border: solid 1px grey; }
+  .main .noticiasMain .card-title {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900; }
+  .main .noticiasMain .card-text {
+    text-align: center;
+    font-family: 'Nunito', sans-serif; }
+  .main .noticiasMain .btn {
+    display: flex;
+    justify-content: center; }
+  .main .noticiasMain .botonNot {
+    background-color: #b63e13;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900; }
+  .main .noticiasMain .botonNot:hover, .main .noticiasMain .botonNot:active {
+    font-size: 110%; }
+
+.mainAcercaNos {
+  border: solid 1px black;
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  /* text-transform: uppercase; */
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px; }
+
+.divNosotros {
+  background-color: #FFE8CD;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700; }
+
+.mainServiciosTitulo {
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px; }
+
+.divServicios {
+  background-color: #FFE8CD; }
+  .divServicios .card-header {
+    background-color: #834832;
+    font-weight: 900;
+    color: white;
+    font-family: 'Nunito', sans-serif; }
+
+.divCardServicio .serviciosCardP {
+  font-weight: 900;
+  font-family: 'Nunito', sans-serif; }
+
+.mainNovedadesT {
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px; }
+
+.noticiasMain .divNosotrosBg {
+  background-color: #FFE8CD;
+  border: solid 1px grey; }
 
 .mainContactoT {
   border: solid 1px black;
@@ -55,3 +153,13 @@
 
 .btnEnviar:hover, .btnEnviar:active {
   font-size: 110%; }
+
+.mainNoticiasT {
+  background-color: #b63e13;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px; }

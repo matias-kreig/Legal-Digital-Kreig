@@ -1,0 +1,62 @@
+.main{
+    
+    .mainSlogan{
+        border: solid 1px black;
+        background-color: rgb(182, 62, 19);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+    }
+    
+    .tituloIndexNovedades{
+        border: solid 1px black;
+        background-color: rgb(182, 62, 19);
+        color: white;
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+        font-family: 'Noto Sans', sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 3px; 
+    }
+    .noticiasMain{
+        display: flex;
+        justify-content: center;
+        margin: auto; 
+        
+        .divNoticiasIndex{
+            background-color:#fde1c0;
+            border: solid 1px grey;
+        }
+
+        .card-title{
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-weight:900;
+        }
+
+        .card-text{
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
+
+        .botonNot{
+            background-color: rgb(182, 62, 19);
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+        
+        .botonNot:hover, .botonNot:active{
+           font-size: 110%;
+        }
+    
+    }
+}
