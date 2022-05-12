@@ -1,3 +1,11 @@
+/* Variable */
+/* Maps */
+/* Extend */
+.main .noticiasMain, .main .noticiasMain .btn {
+  display: flex;
+  justify-content: center; }
+
+/* Mixin */
 .header .navegador {
   background-color: #ff4400; }
   .header .navegador .navegador__div__a .navegador__div__a__logoNav {
@@ -20,7 +28,7 @@
   background: radial-gradient(circle, rgba(255, 136, 0, 0.908001) 0%, #ffc991 100%); }
 
 .footer {
-  background-color: orangered; }
+  background-color: #ff4400; }
   .footer .footer__ul {
     display: inline-block;
     display: flex;
@@ -59,8 +67,6 @@
   word-spacing: 3px; }
 
 .main .noticiasMain {
-  display: flex;
-  justify-content: center;
   margin: auto; }
   .main .noticiasMain .divNoticiasIndex {
     background-color: #fde1c0;
@@ -72,9 +78,6 @@
   .main .noticiasMain .card-text {
     text-align: center;
     font-family: 'Nunito', sans-serif; }
-  .main .noticiasMain .btn {
-    display: flex;
-    justify-content: center; }
   .main .noticiasMain .botonNot {
     background-color: #b63e13;
     font-family: 'Nunito', sans-serif;

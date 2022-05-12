@@ -1,1 +1,28 @@
+/* Variable */
 $background-color_header-footer: rgb(255, 68, 0);
+
+ /* Maps */
+$colores_de_background:(
+    header: rgb(255, 68, 0),
+    footer: rgb(255, 68, 0),
+    bgNoticiasIndex: #fde1c0,
+    bgDivNosotros:#FFE8CD,
+    bgCardServicios: rgb(131, 72, 50),
+    bgBotones: rgb(182, 62, 19),
+    bgDivNoticias:rgb(182, 62, 19),
+    
+
+
+);
+/* Extend */
+%flex-center{
+    display: flex;
+    justify-content: center;
+};
+
+/* Mixin */
+@mixin flexbox ($justify){
+    display: flex;
+    justify-content: $justify;
+};
+

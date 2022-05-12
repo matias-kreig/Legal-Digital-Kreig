@@ -1,10 +1,9 @@
 .footer{
-    background-color:orangered;
+    background-color:map-get($colores_de_background,footer);
     
     .footer__ul{
        display: inline-block;
-        display: flex;
-        justify-content:space-evenly;
+        @include flexbox(space-evenly);
         list-style: none;
         
         .footer__ul__li{

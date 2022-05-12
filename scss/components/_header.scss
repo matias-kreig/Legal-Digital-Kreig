@@ -1,7 +1,7 @@
 .header{
     
     .navegador{
-        background-color:$background-color_header-footer;
+        background-color: map-get($colores_de_background,header);
         
         .navegador__div__a{
             

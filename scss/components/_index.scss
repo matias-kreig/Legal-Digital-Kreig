@@ -2,7 +2,7 @@
     
     .mainSlogan{
         border: solid 1px black;
-        background-color: rgb(182, 62, 19);
+        background-color:map-get($colores_de_background, bgDivNoticias);
         color: rgb(255, 255, 255);
         text-align: center;
         margin: 30px;
@@ -13,7 +13,7 @@
     
     .tituloIndexNovedades{
         border: solid 1px black;
-        background-color: rgb(182, 62, 19);
+        background-color:map-get($colores_de_background, bgDivNoticias);
         color: white;
         text-align: center;
         margin: 30px;
@@ -23,12 +23,11 @@
         word-spacing: 3px; 
     }
     .noticiasMain{
-        display: flex;
-        justify-content: center;
+        @extend %flex-center;
         margin: auto; 
         
         .divNoticiasIndex{
-            background-color:#fde1c0;
+            background-color:map-get($colores_de_background,bgNoticiasIndex);
             border: solid 1px grey;
         }
 
@@ -44,12 +43,11 @@
         }
 
         .btn{
-            display: flex;
-            justify-content: center;
+           @extend %flex-center;
         }
 
         .botonNot{
-            background-color: rgb(182, 62, 19);
+            background-color:map-get($colores_de_background, bgBotones );
             font-family: 'Nunito', sans-serif;
             font-weight: 900;
         }
