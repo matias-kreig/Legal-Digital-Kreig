@@ -26,6 +26,7 @@
         @extend %flex-center;
         margin: auto; 
         
+        
         .divNoticiasIndex{
             background-color:map-get($colores_de_background,bgNoticiasIndex);
             border: solid 1px grey;
@@ -35,6 +36,7 @@
             text-align: center;
             font-family: 'Nunito', sans-serif;
             font-weight:900;
+            
         }
 
         .card-text{

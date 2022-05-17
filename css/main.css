@@ -170,7 +170,7 @@
 body {
   background: #ff8800;
   background: radial-gradient(circle, rgba(255, 136, 0, 0.908001) 0%, #ffc991 100%);
-  font-family: 'Red Hat Mono', monospace;
+  
   font-size: large; }
   body a {
     text-decoration: none;
