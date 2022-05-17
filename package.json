@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/matias-kreig/Legal-Digital-Kreig.git"
   },
-  "author": "Matias Kreig",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matias-kreig/Legal-Digital-Kreig/issues"
@@ -21,5 +21,5 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   },
-  "description": "Sitio Legal Digital"
+  "description": ""
 }

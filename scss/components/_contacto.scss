@@ -9,11 +9,17 @@
     letter-spacing: 1px;
     word-spacing: 3px;
 }
-.btnEnviar{
+.divContacto{
+    
+    
+    .btnEnviar{
     background-color: rgb(182, 62, 19);
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-}
-.btnEnviar:hover, .btnEnviar:active{
+    }
+    .btnEnviar:hover, .btnEnviar:active{
     font-size: 110%;
+    }
+
 }
+
