@@ -66,12 +66,21 @@
   letter-spacing: 1px;
   word-spacing: 3px; }
 
+.main .noticiasIndex .noticiasIndexCard {
+  width: auto;
+  height: auto;
+  background-color: bisque; }
+  .main .noticiasIndex .noticiasIndexCard .card-title {
+    font-family: 'Nunito', sans-serif; }
+  .main .noticiasIndex .noticiasIndexCard .btn {
+    background-color: orangered;
+    color: white; }
+
 .main .noticiasMain {
   margin: auto; }
   .main .noticiasMain .divNoticiasIndex {
     background-color: #fde1c0;
-    border: solid 1px grey;
-     }
+    border: solid 1px grey; }
   .main .noticiasMain .card-title {
     text-align: center;
     font-family: 'Nunito', sans-serif;
